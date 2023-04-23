@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="889.0" style="-fx-background-color: #4b4b55;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<Pane prefHeight="664.0" prefWidth="889.0" style="-fx-background-color: #4b4b55;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
    <children>
       <Button layoutX="163.0" layoutY="57.0" mnemonicParsing="false" style="-fx-background-color: transparent;" />
       <Pane prefHeight="52.0" prefWidth="889.0" style="-fx-background-color: #101942;">
@@ -81,14 +81,14 @@
             <TextField layoutX="14.0" layoutY="143.0" prefHeight="29.0" prefWidth="310.0" />
          </children>
       </Pane>
-      <ListView layoutX="520.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="584.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="608.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="664.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="688.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="752.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="776.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
-      <ListView layoutX="840.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="listEntrada" layoutX="520.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list1R1" layoutX="584.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list2R1" layoutX="608.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list1R2" layoutX="664.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list2R2" layoutX="688.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list1R3" layoutX="752.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="list2R3" layoutX="776.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
+      <ListView fx:id="listSalida" layoutX="840.0" layoutY="89.0" prefHeight="461.0" prefWidth="24.0" style="-fx-background-color: #101942;" />
       <Label layoutX="508.0" layoutY="60.0" prefHeight="19.0" prefWidth="49.0" text="Input" textFill="WHITE">
          <font>
             <Font name="Britannic Bold" size="19.0" />

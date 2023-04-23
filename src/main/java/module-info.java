@@ -6,5 +6,8 @@ module enigme.enigmemachine {
     requires com.dlsc.formsfx;
 
     opens enigme.enigmemachine to javafx.fxml;
+    opens Controller to javafx.fxml;
+    exports Controller;
     exports enigme.enigmemachine;
+
 }
