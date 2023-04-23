@@ -5,8 +5,6 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
@@ -27,27 +25,13 @@
       </Pane>
       <Pane layoutX="14.0" layoutY="79.0" prefHeight="45.0" prefWidth="480.0" style="-fx-background-color: #101942; -fx-background-radius: 10px;;">
          <children>
-            <Label layoutX="14.0" layoutY="11.0" prefHeight="26.0" prefWidth="110.0" text="Clave" textFill="#dddddd">
+            <Label layoutX="9.0" layoutY="11.0" prefHeight="26.0" prefWidth="57.0" text="Clave" textFill="#dddddd">
                <font>
                   <Font name="Britannic Bold" size="22.0" />
                </font>
-               <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../java/Image/password.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
             </Label>
             <TextField layoutX="104.0" layoutY="12.0" prefHeight="25.0" prefWidth="158.0" />
             <Button layoutX="274.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Cambiar Clave">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../java/Image/shuffle.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
                <font>
                   <Font name="Gill Sans MT" size="13.0" />
                </font></Button>
